@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Roboto+Condensed&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #ffa19d;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.mainheading {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.mainpage {
+    background-color: #fff;
+    margin: 15px 30px;
+    padding: 10px 10px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.form input {
+    margin: 5px 0px;
+    display: block;
+}
+
+input:hover {
+    background-color: #b0b0b0;
+    outline: #b0b0b0;
+}
+
+input:focus {
+    outline: #b0b0b0;
+}
+
+.inputbox {
+    height: 35px;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 3px;
+    width: 99%;
+    padding-left: 5px;
+}
+
+.secheading {
+    display: block;
+    margin: 16px 0px 8px;
+}
+
+
+.radio {
+    display: flex;
+    padding: 2px 2px;
+    margin: 5px 2px;
+}
+
+.radio input {
+    margin-right: 5px;
+}
+
+.submit {
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    background-color: #ffa19d;
+    border: 1px solid #b0b0b0;
+    border-radius: 5px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.comment {
+    margin-bottom: 20px;
+    padding: 4px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 99%;
+    font-size: 15px;
+}
